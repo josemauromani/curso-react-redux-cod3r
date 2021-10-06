@@ -1,13 +1,11 @@
 import React from "react";
-import ComponenteComParametro from "./components/basics/ComponenteComParametro";
-import Primeiro from "./components/basics/Primeiro";
+import NumeroAleatorio from "./components/basics/NumeroAleatorio";
 
 export default () => (
   <>
-    <h1>Fundamentos do React</h1>
-    <Primeiro />
-    <ComponenteComParametro titulo="Avaliacao" aluno="Mauro" nota={9.3} />
-    <ComponenteComParametro titulo="Avaliacao" aluno="Erika" nota={7.2} />
-    <ComponenteComParametro titulo="Avaliacao" aluno="Isabel" nota={10.0} />
+    <h1>Desafio do Numero Aleatorio</h1>
+    <NumeroAleatorio numeroMinimo={2} numeroMaximo={4} />
+    <NumeroAleatorio numeroMinimo={4} numeroMaximo={13} />
+    <NumeroAleatorio numeroMinimo={7} numeroMaximo={9} />
   </>
 );
